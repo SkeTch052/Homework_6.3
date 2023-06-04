@@ -127,15 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class_Child_Quadrangle.cpp" />
-    <ClCompile Include="Class_Child_Triangle.cpp" />
-    <ClCompile Include="Class_Parent.cpp" />
+    <ClCompile Include="Rhombus.cpp" />
+    <ClCompile Include="Equilateral_Triangle.cpp" />
+    <ClCompile Include="Figure.cpp" />
     <ClCompile Include="Homework_6.3.cpp" />
+    <ClCompile Include="Isosceles_Triangle.cpp" />
+    <ClCompile Include="Parallelogram.cpp" />
+    <ClCompile Include="Quadrangle.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Right_Triangle.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Class_Child_Quadrangle.h" />
-    <ClInclude Include="Class_Child_Triangle.h" />
-    <ClInclude Include="Class_Parent.h" />
+    <ClInclude Include="Rhombus.h" />
+    <ClInclude Include="Equilateral_Triangle.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Isosceles_Triangle.h" />
+    <ClInclude Include="Parallelogram.h" />
+    <ClInclude Include="Quadrangle.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Right_Triangle.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

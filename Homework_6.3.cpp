@@ -1,11 +1,18 @@
 ﻿#include <iostream>
 #include <locale.h>
 #include <string>
-#include "Class_Parent.h"
-#include "Class_Child_Triangle.h"
-#include "Class_Child_Quadrangle.h"
+#include "Figure.h"
+#include "Right_Triangle.h"
+#include "Isosceles_Triangle.h"
+#include "Equilateral_Triangle.h"
+#include "Triangle.h"
+#include "Quadrangle.h"
+#include "Rectangle.h"
+#include "Parallelogram.h"
+#include "Square.h"
+#include "Rhombus.h"
 
-void print_info_angle_3(Triangle& x) {
+void print_info_angle_3(const Triangle& x) {
     std::cout << x.get_name() << ":" << std::endl;
     std::cout << "Стороны: a=" << x.get_side_a() << " b=" << x.get_side_b() <<
         " c=" << x.get_side_c() << std::endl;
@@ -13,7 +20,7 @@ void print_info_angle_3(Triangle& x) {
         " C=" << x.get_angle_C() << std::endl << std::endl;
 }
 
-void print_info_angle_4(Quadrangle& y) {
+void print_info_angle_4(const Quadrangle& y) {
     std::cout << y.get_name() << ":" << std::endl;
     std::cout << "Стороны: a=" << y.get_side_a() << " b=" << y.get_side_b() <<
         " c=" << y.get_side_c() << " d=" << y.get_side_d() << std::endl;
